@@ -55,3 +55,13 @@ Don't call Hooks inside loops, conditions, or nested functions
 
 "Only call Hooks from React functions"
 Call them from within React functional components and not just any regular JavaScript function.
+
+Summary - useState
+
+* the useState hook let you add state to functional components
+* in classes, the state is always an object
+* with the useState hook, the state does not have to be an object.
+* the useState hook returns an array with 2 elements.
+* the first element is the current value of the state, and the second element is a state setter function.
+* new state value depends on the previous state value? You can pass a function to the setter function
+* when dealing with objects or arrays, always make sure to spread your state vaiable and then call the setter function

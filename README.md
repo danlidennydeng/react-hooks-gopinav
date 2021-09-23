@@ -65,3 +65,9 @@ Summary - useState
 * the first element is the current value of the state, and the second element is a state setter function.
 * new state value depends on the previous state value? You can pass a function to the setter function
 * when dealing with objects or arrays, always make sure to spread your state vaiable and then call the setter function
+-------------------------------------------
+useEffect
+
+The Effect hook let you perform side effects in functional components. 
+
+It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount

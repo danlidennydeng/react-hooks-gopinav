@@ -1,16 +1,20 @@
 
 import './App.css';
+// import ClassCounterOneCondition from './components/ClassCounterOneCondition';
+import HookCounterOneCondition from './components/HookCounterOneCondition';
 // import ClassCounterOne from './components/ClassCounterOne';
-import HookCounter from './components/HookCounter';
-import HookCounterFour from './components/HookCounterFour';
-import HookCounterOne from './components/HookCounterOne';
-import HookCounterThree from './components/HookCounterThree';
-import HookCounterTwo from './components/HookCounterTwo';
+// import HookCounter from './components/HookCounter';
+// import HookCounterFour from './components/HookCounterFour';
+// import HookCounterOne from './components/HookCounterOne';
+// import HookCounterThree from './components/HookCounterThree';
+// import HookCounterTwo from './components/HookCounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      {/* <ClassCounterOneCondition /> */}
+      <HookCounterOneCondition />
+      {/* <HookCounter />
       <hr />
       <HookCounterTwo />
       <hr />
@@ -18,8 +22,8 @@ function App() {
       <hr />
       <HookCounterFour />
       <hr />
-      {/* <ClassCounterOne /> */}
-      <HookCounterOne />
+      <ClassCounterOne />
+      <HookCounterOne /> */}
     </div>
 
   );

@@ -1,7 +1,8 @@
 
 import './App.css';
+import HookMouse from './components/HookMouse';
 // import ClassCounterOneCondition from './components/ClassCounterOneCondition';
-import HookCounterOneCondition from './components/HookCounterOneCondition';
+// import HookCounterOneCondition from './components/HookCounterOneCondition';
 // import ClassCounterOne from './components/ClassCounterOne';
 // import HookCounter from './components/HookCounter';
 // import HookCounterFour from './components/HookCounterFour';
@@ -12,8 +13,9 @@ import HookCounterOneCondition from './components/HookCounterOneCondition';
 function App() {
   return (
     <div className="App">
+      <HookMouse />
       {/* <ClassCounterOneCondition /> */}
-      <HookCounterOneCondition />
+      {/* <HookCounterOneCondition /> */}
       {/* <HookCounter />
       <hr />
       <HookCounterTwo />

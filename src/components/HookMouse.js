@@ -15,6 +15,8 @@ function HookMouse() {
     console.log('useEffect call')
     window.addEventListener('mousemove', logMousePosition)
   }, [])
+  // [] array changes, only runs window.addEventListener('mousemove', logMousePosition), 
+  // never run anything else again, including console.log('useEffect call').
 
   return (
     

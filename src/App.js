@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import ComponentC from './components/ComponentC';
+import CounterOne from './components/CounterOne';
+// import ComponentC from './components/ComponentC';
 // import DataFetchingOneClick from './components/DataFetchingOneClick';
 // import DataFetching from './components/DataFetching';
 // import IntervalHookCounter from './components/IntervalHookCounter';
@@ -15,17 +16,18 @@ import ComponentC from './components/ComponentC';
 // import HookCounterThree from './components/HookCounterThree';
 // import HookCounterTwo from './components/HookCounterTwo';
 
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={'Denny'}>
+      <CounterOne />
+      {/* <UserContext.Provider value={'Denny'}>
         <ChannelContext.Provider value={'Codevolution'}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
 
       {/* <DataFetchingOneClick /> */}
       {/* <DataFetching /> */}

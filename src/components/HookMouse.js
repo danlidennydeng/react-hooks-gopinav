@@ -20,7 +20,7 @@ function HookMouse() {
       window.removeEventListener('mousemove', logMousePosition)
     }
   }, [])
-  // [] array changes, only runs window.addEventListener('mousemove', logMousePosition), 
+  // Watch for [] array changes, only runs window.addEventListener('mousemove', logMousePosition), 
   // never run anything else again, including console.log('useEffect call').
 
   return (

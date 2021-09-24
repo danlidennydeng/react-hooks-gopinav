@@ -71,3 +71,5 @@ useEffect
 The Effect hook let you perform side effects in functional components. 
 
 It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount
+
+It is allowable to use multiple useEffect in one function.

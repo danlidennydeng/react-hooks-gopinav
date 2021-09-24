@@ -1,6 +1,7 @@
 
 import './App.css';
-import MouseContainer from './components/MouseContainer';
+import IntervalHookCounter from './components/IntervalHookCounter';
+// import MouseContainer from './components/MouseContainer';
 // import HookMouse from './components/HookMouse';
 // import ClassCounterOneCondition from './components/ClassCounterOneCondition';
 // import HookCounterOneCondition from './components/HookCounterOneCondition';
@@ -14,7 +15,8 @@ import MouseContainer from './components/MouseContainer';
 function App() {
   return (
     <div className="App">
-      <MouseContainer />
+      <IntervalHookCounter />
+      {/* <MouseContainer /> */}
       {/* <HookMouse /> */}
       {/* <ClassCounterOneCondition /> */}
       {/* <HookCounterOneCondition /> */}

@@ -79,3 +79,27 @@ Context provides a way to pass data through the component tree without having to
 
 Traditional implement method of context can nest too many levels and looks ugly.
 
+-------------------------------------------------------
+useReducer
+
+useReducer is a hook that is used for state management. It is an alternative to useState. 
+But what's the difference? When to useReducer vs. useState?
+
+Please check javascript guide of "array.prototype.reduce()" first. 
+# it behaves like a sum of all element in an array.
+
+reduce in JavaScript:
+array.reduce(reducer, initalValue)
+singleValue = reducer(accumulator, itemValue)
+reduce method returns a single value
+
+useReducer in React:
+useReducer(reducer, initialState)
+newState = reducer(currentState, action)
+useReducer returns a pair of values. [newState, dispatch]
+
+userReducer Summary
+* useReducer is a hook that is used for statement in React
+* useReducer is related to reducer functions
+* useReducer(reducer, initialState)
+* reducer(currentState, action)

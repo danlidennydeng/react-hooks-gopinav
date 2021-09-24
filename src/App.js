@@ -1,6 +1,6 @@
 
 import './App.css';
-import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingOneClick from './components/DataFetchingOneClick';
 // import DataFetching from './components/DataFetching';
 // import IntervalHookCounter from './components/IntervalHookCounter';
 // import MouseContainer from './components/MouseContainer';
@@ -17,7 +17,7 @@ import DataFetchingOne from './components/DataFetchingOne';
 function App() {
   return (
     <div className="App">
-      <DataFetchingOne />
+      <DataFetchingOneClick />
       {/* <DataFetching /> */}
       {/* <IntervalHookCounter /> */}
       {/* <MouseContainer /> */}

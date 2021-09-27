@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import CounterOne from './components/CounterOne';
+import CounterTwoToo from './components/CounterTwoToo';
 // import ComponentC from './components/ComponentC';
 // import DataFetchingOneClick from './components/DataFetchingOneClick';
 // import DataFetching from './components/DataFetching';
@@ -22,7 +22,7 @@ import CounterOne from './components/CounterOne';
 function App() {
   return (
     <div className="App">
-      <CounterOne />
+      <CounterTwoToo />
       {/* <UserContext.Provider value={'Denny'}>
         <ChannelContext.Provider value={'Codevolution'}>
           <ComponentC />

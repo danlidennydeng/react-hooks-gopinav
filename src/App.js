@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css';
-import CounterTwoToo from './components/CounterTwoToo';
+// import CounterMultiple from './components/CounterMultiple';
+import CounterTwoMultiple from './components/CounterTwoMultiple';
+// import CounterTwoToo from './components/CounterTwoToo';
 // import ComponentC from './components/ComponentC';
 // import DataFetchingOneClick from './components/DataFetchingOneClick';
 // import DataFetching from './components/DataFetching';
@@ -22,7 +24,7 @@ import CounterTwoToo from './components/CounterTwoToo';
 function App() {
   return (
     <div className="App">
-      <CounterTwoToo />
+      <CounterTwoMultiple />
       {/* <UserContext.Provider value={'Denny'}>
         <ChannelContext.Provider value={'Codevolution'}>
           <ComponentC />

@@ -1,5 +1,6 @@
 import React from 'react'
-import DataEffect from './components/DataEffect';
+//import DataEffect from './components/DataEffect';
+import DataReducer from './components/DataReducer';
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     
     <div className="App">
-      <DataEffect />
+      <DataReducer />
     </div>
     
   );

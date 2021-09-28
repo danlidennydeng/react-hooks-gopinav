@@ -1,11 +1,12 @@
 import React from 'react'
-import ComponentE from './ComponentE'
+import ComponentEE from './ComponentEE'
 
 function ComponentC() {
 
   return (
     <div>
-      <ComponentE />
+  
+      <ComponentEE />
     </div>
   )
 }

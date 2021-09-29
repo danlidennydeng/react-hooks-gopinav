@@ -1,5 +1,8 @@
 import React from 'react'
+import './App.css';
+
 import ParentComponent from './components/ParentComponent';
+
 //import DataEffect from './components/DataEffect';
 // import DataReducer from './components/DataReducer';
 

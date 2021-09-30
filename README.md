@@ -117,3 +117,10 @@ useCallback Hook
 What? * useCallback is a hook tha will return a memoized version of the callback function that only change if one of the dependencies has changed
 
 Why? * it is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+
+----------------------------------------------------------
+
+useMemo is very similar to useCallback, what is the difference?
+
+cache the function, useCallback.(Button in this case is a function)
+cache the result, useMemo. (incrementOne is just a handler or method in a function)

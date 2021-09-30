@@ -124,3 +124,11 @@ useMemo is very similar to useCallback, what is the difference?
 
 cache the function, useCallback.(Button in this case is a function)
 cache the result, useMemo. (incrementOne is just a handler or method in a function)
+
+-------------------------------------------------------
+
+useRef() hold an immutable value inside of useEffect
+
+-------------------------------------------------------
+
+other Hooks are rarely used.

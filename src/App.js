@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import CounterMemo from './components/CounterMemo';
+import FocusInput from './components/FocusInput';
+// import CounterMemo from './components/CounterMemo';
 
 // import ParentComponent from './components/ParentComponent';
 
@@ -13,7 +14,7 @@ function App() {
   return (
     
     <div className="App">
-      <CounterMemo />
+      <FocusInput />
     </div>
     
   );

@@ -132,3 +132,12 @@ useRef() hold an immutable value inside of useEffect
 -------------------------------------------------------
 
 other Hooks are rarely used.
+
+-----------------------------------------------------
+
+Custom Hooks
+
+A custom hook is basically a javascript function whose name starts with "use"
+A custom hook can also call other Hooks if required.
+
+Why? * Share logic - Alternative to HOCs and Render Props

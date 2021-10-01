@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css';
-import DocTitleOne from './components/DocTitleOne';
-import DocTitleTwo from './components/DocTitleTwo';
+import CounterCustomOne from './components/CounterCustomOne';
+import CounterCustomTwo from './components/CounterCustomTwo';
+
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
   return (
     
     <div className="App">
-      <DocTitleOne />
-      <DocTitleTwo />
+      <CounterCustomOne />
+      <CounterCustomTwo />
     
     </div>
     

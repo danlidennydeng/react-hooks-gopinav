@@ -1,18 +1,13 @@
 import React from 'react'
 import './App.css';
-import CounterCustomOne from './components/CounterCustomOne';
-import CounterCustomTwo from './components/CounterCustomTwo';
-
-
+import UserForm2 from './Hooks/UserForm2';
 
 function App() {
 
   return (
     
     <div className="App">
-      <CounterCustomOne />
-      <CounterCustomTwo />
-    
+      <UserForm2 />  
     </div>
     
   );

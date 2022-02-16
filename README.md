@@ -47,7 +47,7 @@ They allow you to use React features without having to write a class
 Avoid the whole confusion with 'this' keyword
 Allow you to reuse stateful logic
 Organize the logic inside a component into reusable isolated units
-
+-----------------------------------------------------------------------
 Rules of Hooks
 
 "Only call Hooks at the Top Level"
@@ -100,8 +100,8 @@ newState = reducer(currentState, action)
 useReducer returns a pair of values. [newState, dispatch]
 
 userReducer Summary
-* useReducer is a hook that is used for statement in React
-* useReducer is related to reducer functions
+* useReducer is a hook that is used for state management in React
+* useReducer is related to Javascript reducer functions
 * useReducer(reducer, initialState)
 * reducer(currentState, action)
 
@@ -111,23 +111,42 @@ useReducer with useContext
 * useReducer + useContext
 
 ----------------------------------------------------------------------------
+When to use useState vs. useReducer since both for state management?
+
+useState for 
+1. Number, String, and Boolean, 
+2. with one or two state transitions.
+3. no related state transition
+4. no business logic
+5. local state
+
+useReducer for 
+1. Object or Array 
+2. with too many transitions
+3. Yes related state transition
+4. complex business logic
+5. global state
+------------------------------------------------------------------------
+Lesson 26
 
 useCallback Hook
 
-What? * useCallback is a hook tha will return a memoized version of the callback function that only change if one of the dependencies has changed
+What? 
+* useCallback is a hook that will return a memoized version of the callback function that only change if one of the dependencies has changed
 
-Why? * it is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+Why? 
+* it is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
 
 ----------------------------------------------------------
 
 useMemo is very similar to useCallback, what is the difference?
 
-cache the function, useCallback.(Button in this case is a function)
-cache the result, useMemo. (incrementOne is just a handler or method in a function)
+* cache the provided function instance itself, useCallback.(Button in this case is a function)
+* cache the result of a function, useMemo. (incrementOne is just a handler or method in a function)
 
 -------------------------------------------------------
 
-useRef() hold an immutable value inside of useEffect
+useRef() hold an immutable value inside of useEffect, can access DOM node directly.
 
 -------------------------------------------------------
 
